@@ -1,0 +1,59 @@
+.myExpContainer{
+    /* height: 100vh; */
+    background: linear-gradient(#fff 40%,#dad7e0,#bcb8c4);
+    padding: 20px;
+}
+.expTitle{
+    color: #e44796;
+    font-size: 4rem;
+    text-align: center;
+}
+.myExpList{
+    font-size: 3rem;
+    font-style: italic;
+    list-style-type: circle;
+}
+.skillTextContainer{
+    font-size: 3rem;
+    display: flex;
+    line-height: 3rem;
+}
+.skills{
+    margin: 0;
+    list-style-type: none;
+    height: 4rem;
+    overflow: hidden;
+    padding-left: 10px;
+    display: inline-block;
+}
+.sent{
+    display: inline-block;
+}
+.skill{
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(6) infinite;
+
+    /* padding: 0.5rem 0; */
+    /* border: 1px solid red; */
+    line-height: 3rem;
+    height: 4rem;
+    font-size: 3rem;
+    vertical-align: bottom;
+
+}
+
+.myExp{
+    font-size:3rem;
+}
+.highlight{
+    color: #e44796;
+    /* color: #ff69b4; */
+    font-style: normal;
+}
+@keyframes slide {
+    100%{
+        top:-24rem;
+    }
+    
+}

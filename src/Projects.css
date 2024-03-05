@@ -1,0 +1,53 @@
+.projectsContainer{
+    height: 100vh;
+    background: #bcb8c4;
+    padding: 10px;
+    position: relative;
+}
+.projectsTitle{
+    font-size:4rem;
+}
+.projects{
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+}
+.project{
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    height: 75vh;
+    
+}
+.projectTitle{
+    text-align: center;
+    font-size: 3rem;
+}
+.carousalNav{
+    width: fit-content;
+    margin: auto;
+}
+.singlePageNav{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:50%
+}
+.prevPage,.nextPage{
+    font-size: 40px;
+    font-weight: bold;
+    color: #008080;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.prevPage:not(.disabled):hover, .nextPage:not(.disabled):hover{
+    transform:scale(1.2);
+}
+input[type='radio'] {
+    accent-color: #232323;
+}
+.prevPage.disabled,
+.nextPage.disabled{
+    opacity: 0.5;
+}
